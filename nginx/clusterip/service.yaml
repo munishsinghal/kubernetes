@@ -4,7 +4,7 @@ kind: Service
 metadata:
     name: nginx-service
 spec:
-    type: LoadBalancer
+    type: ClusterIP
     loadBalancerIP: 34.171.243.101
     selector:
         app: nginx
