@@ -11,4 +11,5 @@ spec:
     - protocol: TCP
       port: 8081
       targetPort: 8081
+      #if you dont want to use nodeport then also it will deploy the service on loadbalancer, nodeport if if you want specific port to expose that service
       nodePort: 30000
