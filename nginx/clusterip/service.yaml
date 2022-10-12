@@ -5,7 +5,6 @@ metadata:
     name: nginx-service
 spec:
     type: ClusterIP
-    loadBalancerIP: 34.171.243.101
     selector:
         app: nginx
     ports:
