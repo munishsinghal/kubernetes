@@ -2,8 +2,6 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: app-ingress
-  labels:
-    app: my-docker-apps
 spec:
 #it will create a new loadbalancer as well
   rules:
